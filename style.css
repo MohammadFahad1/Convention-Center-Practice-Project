@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*---------------------------------------
+  Styles for the For the Front Carousel
+----------------------------------------*/
+
+.front-slider {
+    max-height: 584px;
+    overflow: hidden;
+}
+
+button.carousel-control-prev {
+    width: 50px;
+}
+
+button.carousel-control-next {
+    width: 50px;
+}
+
+.carousel-caption {
+    max-width: 639px;
+}
+
+/*-------------------------
+  Styling Packeges Section
+--------------------------*/
+ul.package-info {
+    list-style-image: url('images/list-icon.svg');
+}
+
+.regular-choose-btn {
+    background-color: #FEF5FA;
+    max-width: 250px;
+}
+
+.badge {
+    z-index: 1;
+}
+
+.accordion-item {
+    margin: 7px 0;
+    border: 1px solid lightgrey;
+}
+
+.accordion-header {
+    margin-bottom: 0;
+    border: 1px solid lightgrey;
+}
+
+/*------------------------
+Styles for footer Section
+-------------------------*/
+.social-share img {
+    max-width: 200px;
+}
+
+/*---------------
+  Media Queries
+----------------*/
+@media screen and (max-width: 721px) {
+    .carousel-caption {
+        font-size: 50%;
+    }
+}
